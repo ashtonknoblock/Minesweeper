@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue; 
+    color: red;
+    font-family: monospace;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+#buttonWrap {
+    width: 500px;
+    margin-left: 125px;
+}
+
+#inputWrap {
+    margin-top: 9px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.button {
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+    background-color: black;
+    color: aliceblue;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3em;
+    text-align: center;
+    color: aliceblue;
+    margin: 0;
+}
+
+#minutes, #seconds {
+    color: red;
+    font-size: 36px;
+    font-family: monospace;
+}
+
+.timer {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.write {
+    width: 200px;
+    height: 25px;
+    align-self: center;
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    font-size: 16px;
+    text-align: center;
+}
+
+#board {
+    display: flex;
+    align-self: center;
+    margin-top: 10px;
+ }
+
+ .row {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .cell {
+    flex: 1;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 251, 251, 0.904);
+ }
+
+ .flag {
+     background-image: url('/minesweeper-images/flag.png')
+ }
+
+ .unclicked {
+     background: url('/minesweeper-images/closed.png') !important;
+     background-size: 100% !important; 
+ }
+ 
+ .invisible {
+     display: none;
+ }
+
+ .mine {
+    background: url('/minesweeper-images/mine.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
