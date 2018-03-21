@@ -66,14 +66,15 @@ h1 {
 }
 
 #board {
-    display: flex;
+    /* display: flex; */
     align-self: center;
     margin-top: 10px;
+    background-color: #f3efef;
  }
 
  .row {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
  }
  
  .cell {
@@ -85,11 +86,11 @@ h1 {
  }
 
  .flag {
-     background-image: url('/minesweeper-images/flag.png')
+     background-image: url('./minesweeper-images/flag.png')
  }
 
  .unclicked {
-     background: url('/minesweeper-images/closed.png') !important;
+     background: url('./minesweeper-images/closed.png') !important;
      background-size: 100% !important; 
  }
  
@@ -98,7 +99,87 @@ h1 {
  }
 
  .mine {
-    background: url('/minesweeper-images/mine.png');
+    background: url('./minesweeper-images/mine.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
+ .one {
+    background: url('./minesweeper-images/1.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
+ .two {
+    background: url('./minesweeper-images/2.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+ 
+ .three {
+    background: url('./minesweeper-images/3.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+ .four {
+    background: url('./minesweeper-images/4.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
+ .five {
+    background: url('./minesweeper-images/5.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
+ .six {
+    background: url('./minesweeper-images/6.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
+ .seven {
+    background: url('./minesweeper-images/7.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
+ .eight {
+    background: url('./minesweeper-images/8.png');
+    background-size: 85%;
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    background-repeat: no-repeat;
+ }
+
+ .nine {
+    background: url('./minesweeper-images/9.png');
     background-size: 85%;
     height: 50px;
     width: 50px;
